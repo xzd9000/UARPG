@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7646198673099671348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7646198673099671349}
+  - component: {fileID: 3307468499081861874}
+  - component: {fileID: 3307468499367900765}
+  - component: {fileID: 4864271417613609977}
+  m_Layer: 0
+  m_Name: GameDataGlobal
+  m_TagString: GameData
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7646198673099671349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646198673099671348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3307468499081861874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646198673099671348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52e44e9d04915943b40c84210eeb1f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  InactiveObjectPosition: {x: 0, y: 0, z: 0}
+  InactiveObjectAngles: {x: 0, y: 0, z: 0}
+  RotationSpeedMultiplier: 6
+  MoveSpeedMultiplier: 10
+  ProjectileMoveSpeedMultiplier: 1
+  GravityMultiplier: 1
+  AccelerationMultiplier: 1
+  Acceleration2Multiplier: 1
+  RotationSpeedFixedMultiplier: 0.16666667
+  MoveSpeedFixedMultiplier: 0.1
+  GravityFixedMultiplier: 0.1
+  StatLocalization: {fileID: 11400000, guid: 61dd3e05b18b51f43932c9f5e238930f, type: 2}
+  ResistanceLocalization: {fileID: 11400000, guid: 14b0029b736720247a4305cf8c13cfb8,
+    type: 2}
+  DamageTypeLocalization: {fileID: 11400000, guid: 43a2311987c2e914bad4441bb05dc8a0,
+    type: 2}
+  savesFolderLocalPath: UARPG
+  MaxAttackHoldTime: 60
+  LaserUpdateRate: 0.001
+  MinCharactersResistance:
+    Percentage: 0
+    floats: []
+  MaxCharactersResistance:
+    Percentage: 0
+    floats: []
+  MaxInteractiveObjectsForPlayer: 100
+  MaxInteractiveObjectsForNPC: 10
+  DefaultResHPPercent: 10
+  MinDamageValue: 1
+  DefaultTimeTick: 0.001
+  DefaultAggroRange: 10
+  MinSpawnDelay: 0.0001
+  LaterJumpsMultiplier: 1.09
+  DefaultUIColor: {r: 147, g: 147, b: 147, a: 1}
+  DefaultUITransparentColor: {r: 147, g: 147, b: 147, a: 152}
+--- !u!114 &3307468499367900765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646198673099671348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d9badcb1da9d6e40b694e8ae70da691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  saveInfos: []
+  spawnPointIndex: 0
+  playerAsset: {fileID: 0}
+  spawnPoints: []
+  GuiData: []
+--- !u!114 &4864271417613609977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646198673099671348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a48ec73b52edfe46b81cfa1d5bb8064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  localization: 0
